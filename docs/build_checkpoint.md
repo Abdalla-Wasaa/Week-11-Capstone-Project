@@ -1,6 +1,7 @@
 # Build checkpoint
 
 ## Works now
+- GitHub repository published with main and feature/capstone-setup history; hosted CI run 38279899422 passed all gates.
 - Ten-slide `docs/presentation.pdf` and filled outline prepared; authenticated `scripts/demo.sh` verified on port 8081 because 8080 was occupied.
 - `proposal.md`: AfyaPlus Module 4 Capstone, API path with integrated stub lookup and tools.
 - `skill_matrix.md`: required skill paths mapped; optional multimodal lane explicitly deferred.

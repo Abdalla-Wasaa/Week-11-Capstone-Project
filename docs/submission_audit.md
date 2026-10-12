@@ -12,7 +12,7 @@ peer review, hosted CI, upload, or live presentation.
 | Router, gold fixture, real service stub and pin tests | Ready | docs/evidence/pytest.txt: 313 passed, 1 deselected |
 | Security smoke and real email redaction | Ready | tests/test_security_smoke.py; configured-key auth covered |
 | Measured performance artifact | Ready | perf_stub.json: 10 successful HTTP calls, teaching caption |
-| CI workflow present and green | Partially ready | Workflow published and local gates pass; hosted CI confirmation pending |
+| CI workflow present and green | Ready | Hosted run 38279899422 passed all gates; see README link |
 | Broken-fixture diagnosis | Ready | Three-line incident note in docs/build_checkpoint.md; fixture tests retained |
 | One-command end-to-end flow | Ready | bash scripts/demo.sh; optional DEMO_PORT override |
 | Transcript or recording | Ready | docs/evidence/demo_transcript.txt captures actual authenticated HTTP demo |
@@ -25,7 +25,7 @@ peer review, hosted CI, upload, or live presentation.
 | Optional sprint board | Optional, absent | Not required for submission |
 | 8–10 slide PDF and filled outline | Ready as draft | docs/presentation.pdf has ten slides; outline filled |
 | 7-minute talk, 3-minute demo, 3-minute questions | Planned, not delivered | docs/presentation_runbook.md |
-| Single GitHub repository and visible eval in CI | Incomplete | Published to Abdalla-Wasaa/Week-11-Capstone-Project; hosted CI confirmation pending |
+| Single GitHub repository and visible eval in CI | Ready | Published to Abdalla-Wasaa/Week-11-Capstone-Project; eval prints in successful hosted CI |
 | Programme portal submission and Week 12 presentation | Pending user action | Deadline follows mentor instructions; no upload or in-class delivery claimed |
 
 ## Finish before submission
@@ -36,8 +36,7 @@ peer review, hosted CI, upload, or live presentation.
 3. Both main and feature/capstone-setup are published. Use PRs for subsequent changes; no completed classmate review is claimed.
 4. Obtain the actual assigned classmate PR URL. Abdalla Wasaa is the reviewer;
    posting authorization is already recorded. Update the log only after review.
-5. Confirm GitHub CI passes and link the actual run in README; local green results
-   do not establish hosted CI status.
+5. Hosted CI is now verified and linked in README; check the badge after subsequent changes.
 6. Rehearse the ten slides, upload the packet including PDF and evidence, and
    deliver the live presentation. Keep the current deferrals visible.
 

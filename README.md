@@ -135,7 +135,7 @@ No production scrape, live patient data, or mixed clinical/catalog PII.
 - [Unit/security output](docs/evidence/pytest.txt): **313 passed, 1 deselected**.
 - [Evaluation output](docs/evidence/eval.txt): **3/3 = 1.00**.
 - [Actual demo transcript](docs/evidence/demo_transcript.txt): authenticated stub flow on port 8081.
-- CI workflow is published to GitHub; check the badge above for current hosted status.
+- Hosted CI passed on GitHub: [verified run](https://github.com/Abdalla-Wasaa/Week-11-Capstone-Project/actions/runs/38279899422). The badge above tracks subsequent builds.
 - [Presentation timing and rehearsal](docs/presentation_runbook.md): 7-minute talk, 3-minute demo, 3-minute questions.
 
 ## Fallbacks declared
@@ -152,7 +152,7 @@ No production scrape, live patient data, or mixed clinical/catalog PII.
 - [x] Slides PDF and one-command demo with saved transcript.
 - [ ] Completed classmate peer review and posted comment.
 - [x] Feature-branch commits and GitHub repository published.
-- [ ] Confirm passing hosted CI.
+- [x] Hosted CI passed: [verified run](https://github.com/Abdalla-Wasaa/Week-11-Capstone-Project/actions/runs/38279899422).
 - [ ] Portal upload and Week 12 live presentation.
 
 See [the complete packet audit](docs/submission_audit.md) for remaining requirements.

@@ -1,0 +1,15 @@
+curl: (7) Failed to connect to 127.0.0.1 port 8081 after 0 ms: Couldn't connect to server
+curl: (7) Failed to connect to 127.0.0.1 port 8081 after 0 ms: Couldn't connect to server
+curl: (7) Failed to connect to 127.0.0.1 port 8081 after 0 ms: Couldn't connect to server
+INFO:     Started server process [85619]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8081 (Press CTRL+C to quit)
+INFO:     127.0.0.1:36610 - "GET /health HTTP/1.1" 200 OK
+{"status":"ok"}
+INFO:     127.0.0.1:36618 - "POST /triage HTTP/1.1" 200 OK
+{"status":"ok","text":"track delivery of ors sachets","tool":"logistics_lookup","model_id":"stub-local","answer":"Demo Clinic synthetic stock: ors_sachets: 25.","sources":[{"file":"/root/AIEngineeringClass/afyaplus-ai-week1/module4-capstone/fixtures/clinics.json","record_id":"demo-1"}],"tool_result":{"item":"ors_sachets","stock":[{"clinic":"demo-1","units":25}]}}
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [85619]

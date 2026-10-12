@@ -1,0 +1,53 @@
+[
+  {
+    "artefact": "api",
+    "path": "services/triage",
+    "status": "implemented-stub",
+    "source_evidence": "docs/week_reuse.md"
+  },
+  {
+    "artefact": "tool",
+    "path": "agents/tools/logistics.py",
+    "status": "implemented-stub",
+    "source_evidence": "docs/week_reuse.md"
+  },
+  {
+    "artefact": "pins",
+    "path": "services/triage/prompts/pin.json",
+    "status": "verified-local",
+    "source_evidence": "docs/week_reuse.md"
+  },
+  {
+    "artefact": "smoke",
+    "path": "tests/test_security_smoke.py",
+    "status": "verified-local",
+    "source_evidence": "docs/week_reuse.md"
+  },
+  {
+    "artefact": "rag",
+    "path": "services/triage/rag.py",
+    "status": "implemented-stub",
+    "source_evidence": "docs/week_reuse.md"
+  },
+  {
+    "artefact": "eval",
+    "path": "evals/run_eval.py",
+    "status": "verified-local"
+  },
+  {
+    "artefact": "fixture",
+    "path": "fixtures/triage_messages_sample.jsonl",
+    "status": "verified-local"
+  },
+  {
+    "artefact": "week-reuse",
+    "path": "docs/week_reuse.md",
+    "status": "sources-inspected"
+  },
+  {
+    "artefact": "catalog",
+    "path": "docs/build_checkpoint.md",
+    "status": "deferred",
+    "note": "Catalog image analysis is not implemented; this existing document records the deferral."
+  }
+]

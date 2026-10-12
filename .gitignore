@@ -1,0 +1,11 @@
+.env
+venv/
+__pycache__/
+
+.pytest_cache/
+.ruff_cache/
+*.log
+
+.env.*
+!.env.example
+week11_starter_pack.zip
